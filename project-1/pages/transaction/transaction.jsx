@@ -1,5 +1,5 @@
 import React from "react";
 
-export const transaction = () => {
+export const Transaction = () => {
   return <div>transaction</div>;
 };

@@ -1,10 +1,12 @@
 import React from "react";
-import sidenav from "../../src/components/sidenav";
+import Sidenav from "../../src/components/Sidenav";
 
-export const dashboard = () => {
+const Dashboard = () => {
   return (
     <div>
-      <sidenav />
+      <Sidenav />
     </div>
   );
 };
+
+export default Dashboard;

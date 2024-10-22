@@ -1,8 +1,8 @@
-import { dashboard } from "../pages/dashboard/dashboard";
+import Dashboard from "../pages/Dashboard/Dashboard";
 function App() {
   return (
     <>
-      <dashboard />
+      <Dashboard />
     </>
   );
 }
