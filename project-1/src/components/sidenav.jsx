@@ -9,7 +9,18 @@ const Sidenav = () => {
     { icon: BsArrowDownUp, text: "Transactions", link: "/transactions" },
   ]; //creating array for dashboard and transaction
   return (
-    <Stack justify="space-between" boxShadow="lg" maxW="16rem" h="100vh">
+    <Stack
+      justify="space-between"
+      boxShadow={{
+        base: "none",
+        lg: "lg",
+      }}
+      w={{
+        base: "full",
+        lg: "16rem",
+      }}
+      h="100vh"
+    >
       <Box>
         <Heading textAlign="Center" fontSize="20px" as="h1" pt="56px">
           FirstProject

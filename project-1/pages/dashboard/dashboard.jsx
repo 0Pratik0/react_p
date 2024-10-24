@@ -1,11 +1,10 @@
-import React from "react";
-import Sidenav from "../../src/components/Sidenav";
+import DashboardLayout from "../../src/components/DashboardLayout";
 
 const Dashboard = () => {
   return (
-    <div>
-      <Sidenav />
-    </div>
+    <DashboardLayout title="Dashboard">
+      <div>How are you</div>
+    </DashboardLayout>
   );
 };
 
