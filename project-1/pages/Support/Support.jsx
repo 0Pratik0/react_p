@@ -3,7 +3,7 @@ import ContactCard from "./components/ContactCard";
 import DashboardLayout from "../../src/components/DashboardLayout";
 import SupportCard from "./components/SupportCard";
 import { AiTwotoneMessage } from "react-icons/ai";
-import InfoCard from "../dashboard/InfoCard";
+import InfoCard from "../Dashboard/InfoCard";
 import { Stack } from "@chakra-ui/react";
 const Support = () => {
   return (

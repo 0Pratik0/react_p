@@ -1,5 +1,5 @@
 import React from "react";
-import DashboardLayout from "../../src/components/DashboardLayout";
+import DashboardLayout from "../../src/components/DashboardLayout.jsx";
 import {
   Button,
   Card,
