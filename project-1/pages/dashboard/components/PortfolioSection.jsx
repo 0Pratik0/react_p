@@ -29,7 +29,7 @@ const PortfolioSection = () => {
           <Text fontSize="sm"> Total Portfolio Value</Text>
           <Icon as={AiOutlineInfoCircle} />
         </HStack>
-        <Text textStyle="h2">112,000.11</Text>
+        <Text textStyle="h2">112,090.11</Text>
       </Stack>
       <Stack>
         <HStack color="black.80">
